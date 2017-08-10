@@ -1,5 +1,5 @@
 // IMyAidlInterface.aidl
-package com.examplemobileappcompany.projectprep3bleaidl;
+package com.examplemobileappcompany.projectprep3aidlservice;
 
 // Declare any non-default types here with import statements
 
@@ -11,6 +11,8 @@ interface IMyAidlInterface {
     void basicTypes(int anInt, long aLong, boolean aBoolean, float aFloat,
             double aDouble, String aString);
 
-    String testInteface();
+    String testInterface();
+
+    int getTime();
 
 }
